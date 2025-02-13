@@ -1,6 +1,6 @@
 //
-//  Alamofire_SwiftyJSONTests.swift
-//  Alamofire-SwiftyJSONTests
+//  AlamofireSwiftyJSONTests.swift
+//  AlamofireSwiftyJSONTests
 //
 //  Created by Pinglin Tang on 14-9-23.
 //  Copyright (c) 2014年 SwiftJSON. All rights reserved.
@@ -11,7 +11,7 @@ import AlamofireSwiftyJSON
 import SwiftyJSON
 import XCTest
 
-class Alamofire_SwiftyJSONTests: XCTestCase {
+class AlamofireSwiftyJSONTests: XCTestCase {
     func testGETRequestJSONResponse() {
         let URL = "http://httpbin.org/get"
         let parameters: Parameters = ["foo": "bar"]
